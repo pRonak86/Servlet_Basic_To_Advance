@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body >
+	<h1>Registration Form of Student</h1>
+	<form action="SaveServlet" method="post">
+		<table>
+			<tr>
+				<td> Name </td>
+				<td> <input type="text" name="sname"></td>
+			</tr>
+			<tr>
+				<td> Contact </td>
+				<td> <input type="text" name="scontact"></td>
+			</tr>
+			<tr>
+				<td>EMail </td>
+				<td> <input type="text" name="semail"></td>
+			</tr>
+			<tr>
+				<td> City </td>
+				<td>
+					<select name="scity">
+						<option>Baroda</option>
+						<option>Bharuch</option>
+						<option>Surat</option>
+						<option>Rajkot</option>
+					</select> 
+				</td>
+			</tr>
+			<tr>
+				<td> <input type="submit" value="Register" ></td>
+			</tr>
+		</table>
+	</form>
+	<a href="ViewServlet">View all Data</a>
+	
+	
+	
+	
+</body>
+</html>
